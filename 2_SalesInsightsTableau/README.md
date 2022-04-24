@@ -39,15 +39,15 @@ Create an active dashboard that helps Sales Director track sales data every mont
 
 ## Data Source:
 
-* The dataset provided by the AltiQ IT Team was stored in the MySQL Server owned by the team. The `.sql` file is available [here](/DataAnalysisProjects/2_SalesInsightsTableau/docs/db_dump_version_2.sql).
-* Converted the `.sql` file to `.csv` files for processing stage in Pandas Library. The `.csv` files are available [here](/DataAnalysisProjects/2_SalesInsightsTableau/docs/).
+* The dataset provided by the AltiQ IT Team was stored in the MySQL Server owned by the team. The `.sql` file is available [here](https://raw.githubusercontent.com/samBoyySpirit/DataAnalysisProjects/master/2_SalesInsightsTableau/docs/db_dump_version_2.sql).
+* Converted the `.sql` file to `.csv` files for processing stage in Pandas Library. The `.csv` files are available [here](https://github.com/samBoyySpirit/DataAnalysisProjects/tree/master/2_SalesInsightsTableau/docs).
 * The reason we are converting `.sql` file to `.csv` files is that for data visualization, we are using Tableau public, which does not provide the feature of connecting to the MySQL server. It allows for the loading of `.csv` files.
 
 ## Organization of Data:
 
 The tables in the database is organized in a *Star Schema*. It includes *one* fact table(sales.transactions) indexing *four* dimensional tables(sales.customers, sales.date, sales.products, sales.markets).
 
-![star schema](/DataAnalysisProjects/2_SalesInsightsTableau/images/database_sales_schema.png)
+![star schema](images/database_sales_schema.png)
 
 All the events and transaction related attributes are in the fact table and the remaining characteristics attributes are put in the dimension tables.
 
