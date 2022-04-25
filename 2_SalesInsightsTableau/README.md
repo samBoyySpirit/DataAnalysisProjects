@@ -60,4 +60,16 @@ For more detailed cleaning documentation, check out the ...
 
 # Stage 3: Process.
 
+## Exploratory Data Analysis:
 
+* The section where EDA is performed is in sales_insights_eda_data_cleaning.ipynb .
+
+## Data Cleaning - Documentation:
+
+* The data cleaning documentation is in sales_insights_eda_data_cleaning.ipynb .
+* Dropped the rows with USD in currency of sales.transactions table.
+* Dropped the null rows in sales.markets table.
+* Cleaned the product_type in sales.products table, by removing the extra carriage return sign in the values.
+* Renamed the custmer_name to customer_name in sales.customers table.
+
+# Stage 4: Analysis.
