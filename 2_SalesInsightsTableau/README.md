@@ -142,3 +142,9 @@ Tableau Public is the visualization tool and the dashboards can be accessed here
     - *Delhi* is over reliant on a single customer with bulk share of revenue. Adding new customers could also help with better distribution and **increase in sales amount**.
 * To drive marketing initiatives to the *South Zone*. While the *South Zone* contributes less to the overall revenue of AltiQ for now, it has **potential to increase**. Markets like *Bhubaneshwar* and *Kochi* have **better profit margins**. *Kochi* and *Chennai* have contributed `19M` and `18M` respectively, which is a decent sales amount.
 * *Bengaluru* market needs a different business strategy as it has been a very poor performer as show in the analysis performed.
+
+# Acknowledgement
+
+The main inspiration for this project is this Youtube video tutorial series <https://youtube.com/playlist?list=PLeo1K3hjS3utcb9nKtanhcn8jd2E0Hp9b>.
+
+Thanks to [codebasics](https://www.youtube.com/c/codebasics).
